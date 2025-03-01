@@ -22,8 +22,13 @@ int main() {
     // 5 casas na diagonal superior direita
     while (bispo < 5)
     {   
-        printf("Bispo movimentou-se uma casa a cima e uma casa a direita \n");
+        printf("Bispo movimentou-se uma casa a cima \n");
         bispo++;
+        for ( int i = 0; i < 1; i++)
+        {
+            printf("Bispo movimentou-se uma casa a direita \n");
+        }
+        
     }
 
 printf("\n");        
@@ -44,7 +49,7 @@ printf("\n");
     {
         printf("Rainha movimentou-se uma casa a esquerda \n");
     }
-    
+    printf("\n");
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
